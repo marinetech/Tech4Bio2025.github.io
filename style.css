@@ -89,51 +89,6 @@ header {
     margin: 3px 0;
 }
 
-@media (max-width: 800px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 50%;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: rgb(8 118 153);
-        z-index: 5;
-    }
-
-    .menu button {
-        width: 100%;
-        text-align: left;
-        margin: 5px 0;
-    }
-
-    .separator {
-        display: none;
-        /* הסתרת מפרידים בסמארטפון */
-    }
-
-    .hamburger-menu {
-        display: flex;
-        /* הצגת תפריט המבורגר בסמארטפון */
-    }
-
-    .menu.active {
-        display: flex;
-    }
-
-    .logo-img {
-        left: 1%;
-        width: 150px;
-
-    }
-
-    .background-top-demos {
-      
-        transform: translateY(0%);
-    }
-    
-
-}
 
 footer {
     background-color: white;
@@ -193,7 +148,7 @@ footer {
 }
 
 .content {
-    top: 45%;
+    top: 25%;
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -365,11 +320,11 @@ p {
 }
 */
 #home-header {
+    margin-top: 25px;
     text-align: left;
-    margin-inline-start: 10%;
+    margin-inline-start: 20%;
     margin-inline-end: 20%;
-    top: 30%;
-    position: absolute;
+   
 }
 
 .home-header {
@@ -388,7 +343,6 @@ p {
 
 .home-header h3 {
     font-size: 1.5rem;
-
 }
 
 .home-header h2,
@@ -530,3 +484,63 @@ ol li:before {
     margin: 0; /* הסרת מרווחים מיותרים */
 }
 
+
+@media (max-width: 880px) {
+
+   
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgb(8 118 153);
+        z-index: 5;
+    }
+
+    .menu button {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+
+    .separator {
+        display: none;
+        /* הסתרת מפרידים בסמארטפון */
+    }
+
+    .hamburger-menu {
+        display: flex;
+        /* הצגת תפריט המבורגר בסמארטפון */
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .logo-img {
+        left: 1%;
+        width: 100px;
+
+    }
+
+    .background-top-demos {
+        transform: translateY(0%);
+    }
+}
+@media (max-width: 500px) {
+
+    .home-header p {
+        font-size: 0.75rem;
+    }
+    
+    .home-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .home-header h3 {
+        font-size: 1rem;
+    }
+    
+}

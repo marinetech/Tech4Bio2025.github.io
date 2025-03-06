@@ -12,6 +12,16 @@ class KeynoteSpeakersPage extends HTMLElement {
 
 
             <p class="to-be-updated">To be updated</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <p class="to-be-updated"> </p>
 
         </div>
         `;
