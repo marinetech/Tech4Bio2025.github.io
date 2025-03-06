@@ -4,7 +4,7 @@ class HomePage extends HTMLElement { // Changed class name to DemosPage
         <div class="home">
         <img src="img/Vertical wave.png" alt="Vertical wave" class="background-content-demos">
 
-            <p>The multidisciplinary revolution in science did not skip over marine biology and engineering. Today, understand marine ecosystems in ways that were previously unimaginable. Tools such as remote sensing, satellite imaging, and aerial and marine robotics allow scientists to study vast and often inaccessible areas of the ocean and obtain detailed data on biodiversity, species behavior and environmental changes.</p>
+            <p>The multidisciplinary revolution in science did not skip over marine biology and engineering. Today, we understand marine ecosystems in ways that were previously unimaginable. Tools such as remote sensing, satellite imaging, and aerial and marine robotics allow scientists to study vast and often inaccessible areas of the ocean and obtain detailed data on biodiversity, species behavior and environmental changes.</p>
             <br> 
             <p> These technologies also help with real-time monitoring, such as detecting pollutants or tracking the eKects of climate change on the marine environment. By harnessing these tools, marine biologists can make more informed conservation decisions, protect endangered species and better manage marine resources for the future.</p>
             <br> 
@@ -13,7 +13,7 @@ class HomePage extends HTMLElement { // Changed class name to DemosPage
             <ol style="list-style-type: none; counter-reset: item;">
                 <li>keynote speakers</li>
                 <li>poster session</li>
-                <li>four parrall sessions</li>
+                <li>four parallel sessions</li>
                 <li>expert panel discussion future directions in using technologies for marine biology research</li>
                 <li>demos of underwater technologies related to marine biology</li>
             </ol>
