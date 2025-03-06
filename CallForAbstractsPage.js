@@ -40,6 +40,8 @@ class CallForAbstractsPage extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <div class="call-for-abstracts">
+                    <img src="img/Vertical wave.png" alt="Vertical wave" class="background-content-demos">
+
                 <div class="demos-container">
                     <img src="img/wave.png" alt="" class="wave">
                     <h2 class="wave-line-h2">Call for Abstracts</h2>

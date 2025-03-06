@@ -2,6 +2,7 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
     connectedCallback() {
         this.innerHTML = `
         <div class="organizing-committee">
+        <img src="img/Vertical wave.png" alt="Vertical wave" class="background-content-demos">
 
             <div class="demos-container">
                 <img src="img/wave.png" alt="wave" class="wave">
@@ -28,18 +29,18 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
                         <p>Head of the Dolphin & Sea Educational Centre of IMMRAC, Ashdod</p>
                     </div>
                 </li>
+                    <li>
+                        <img src="img/Shimrit.jpg" alt="parson" class="parson-img">
+                        <div>
+                        <p class="name">Mrs. Shimrit Haimzon,</p>
+                        <p>School of Marine Sciences, University of Haifa</p>
+                    </div>
+                </li>
                 <li>
                     <img src="img/ShlomiDahan.png" alt="parson" class="parson-img">
                     <div>
                         <p class="name">Mr. Shlomi Dahan,</p>
                         <p>Department of Marine Technologies, University of Haifa</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="img/Shimrit.jpg" alt="parson" class="parson-img">
-                    <div>
-                        <p class="name">Mrs. Shimrit Haimzon,</p>
-                        <p>School of Marine Sciences, University of Haifa</p>
                     </div>
                 </li>
             </ul>

@@ -2,6 +2,7 @@ class RegisterPage extends HTMLElement { // Changed class name to DemosPage
     connectedCallback() {
         this.innerHTML = `
         <div class="register">
+        <img src="img/Vertical wave.png" alt="Vertical wave" class="background-content-demos">
 
             <div class="demos-container">
                 <img src="img/wave.png" alt="wave" class="wave">

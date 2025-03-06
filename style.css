@@ -170,12 +170,12 @@ footer {
 }
 
 .background-content-demos {
-    position: fixed;
-    top: 24%;
+    position: absolute;
+    
     left: 0px;
     width: 23%;
-    height: 70%;
-    z-index: 2;
+    height: 100%;
+    /*z-index: 2;*/
 }
 
 .background-bottom-demos {
