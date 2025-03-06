@@ -381,6 +381,8 @@ ol li:before {
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .styled-button {
