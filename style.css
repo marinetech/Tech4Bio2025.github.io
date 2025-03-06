@@ -339,8 +339,11 @@ p {
     margin-bottom: 5px;
 }
 
+
 .home {
-    width: 87%;
+    
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
 }
 
 .home p {
@@ -350,8 +353,9 @@ p {
 
 #home-header {
     text-align: left;
-    margin-left: 40px;
-    top: 30%;
+    margin-inline-start: 10%;
+    margin-inline-end: 20%;  
+      top: 30%;
     position: absolute;
 }
 
@@ -443,4 +447,9 @@ ol li:before {
 .register {
     
     text-align: center;
+}
+
+.to-be-updated{
+    text-align: center;
+font-size: x-large;
 }

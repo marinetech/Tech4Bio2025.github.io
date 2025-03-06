@@ -7,7 +7,6 @@ class Popup extends HTMLElement {
     connectedCallback() {
         this.shadowRoot.innerHTML = `
             <style>
-                /* העתק לכאן את סגנונות ה-CSS שלך מ-popup_style.css */
                 .popup-trigger {
                     cursor: pointer;
                 }
@@ -15,51 +14,67 @@ class Popup extends HTMLElement {
                 .popup {
                     display: none;
                     position: fixed;
-                    z-index: 1;
+                    z-index: 5;
                     left: 0;
                     top: 0;
                     width: 100%;
                     height: 100%;
                     overflow: auto;
-                    background-color: rgba(0, 0, 0, 0.4);
+                    background-color: rgba(255, 255, 255, 0.4);
                 }
 
                 .popup-content {
                     position: relative;
                     background-color: white;
                     margin: 15% auto;
-                    padding: 20px;
+                    
                     border: 1px solid #888;
-                    width: 80%;
+                    width: 50%;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 }
 
                 .close-button {
-                    color: #aaaaaa;
+                    color:rgb(0, 0, 0);
                     float: right;
                     font-size: 28px;
                     font-weight: bold;
                     cursor: pointer;
+                    margin-right: 10px;
                 }
 
                 .popup-header {
                     background-color: rgb(9 118 152);
                     color: white;
                     padding: 10px;
-                    margin-bottom: 10px;
-                }
+
+                                 }
 
                 .popup-header p {
                     color: black;
                     font-size: 14px;
-                    margin: 0;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-buttom: 10px;
+                }
+
+                .popup p {
+                    color: black;
+                    font-size: 14px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    margin-buttom: 20px;
                 }
 
                 .popup-title {
                     font-size: 24px;
-                    margin: 5px 0 0 0;
+                  
+                      margin-left: 20px;
+                    margin-right: 20px;
+                    margin-buttom: 20px; 
                 }
-
+                p{
+                color: black;
+                }
                 @media screen and (max-width: 600px) {
                     .popup-content {
                         width: 90%;
@@ -98,8 +113,8 @@ class Popup extends HTMLElement {
     }
 
     openPopup(data) {
-        this.popupHeader.textContent = data.header;
-        this.popupSub.textContent = data.sub;
+        this.popupHeader.textContent = data.sub;
+        this.popupSub.textContent = data.header;
         this.popupText.textContent = data.text;
         this.popup.style.display = 'block';
     }

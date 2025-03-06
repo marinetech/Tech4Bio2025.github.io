@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } else if (page === 'OrganizingCommittee') {
                 contentDiv.innerHTML = `<organizing-committee-page></organizing-committee-page>`;
             } else if (page === 'KeynoteSpeakers') {
-                contentDiv.innerHTML = `<p>KeynoteSpeakers</p>`;
+                contentDiv.innerHTML = `<keynote-speakers-page></keynote-speakers-page>`;
             } else if (page === 'SocialEvent') {
                 contentDiv.innerHTML = `<social-event-page></social-event-page>`;
             } else if (page === 'VenueAndTraveling') {
