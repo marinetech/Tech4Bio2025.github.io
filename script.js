@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 contentDiv.innerHTML = `<demos-page></demos-page>`;
             } else if (page === 'Register') {
                 contentDiv.innerHTML = `<register-page></register-page>`;
+            } else if (page === 'Sponsors') {
+                contentDiv.innerHTML = `<sponsors-page></sponsors-page>`;
             }
         } else {
             console.error("Content div not found.");
