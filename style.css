@@ -145,6 +145,7 @@ footer {
     width: 100%;
     height: auto;
     transform: translateY(30%);
+    max-height: 50vh;
 }
 
 .content {
@@ -324,7 +325,7 @@ p {
     text-align: left;
     margin-inline-start: 20%;
     margin-inline-end: 20%;
-   
+
 }
 
 .home-header {
@@ -373,7 +374,7 @@ ol li:before {
     background-color: rgb(8 118 153);
     color: rgb(255, 255, 255);
     /* צבע טקסט */
-   /* width: 0.7rem;
+    /* width: 0.7rem;
     height: 0.7rem;
     font-size: 0.7rem;*/
     border-radius: 50%;
@@ -451,11 +452,12 @@ ol li:before {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 20px; /* הגדלת ה-padding לרווח טוב יותר */
+    padding: 20px;
+    /* הגדלת ה-padding לרווח טוב יותר */
 }
 
 .sponsors-list {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -464,32 +466,44 @@ ol li:before {
 
 .sponsor-item {
     display: flex;
-    flex-direction: column; /* סידור אנכי של תמונה וטקסט */
-    align-items: center; /* מרכוז אופקי של התוכן */
-    margin: 20px; /* רווח בין פריטים */
+    flex-direction: column;
+    /* סידור אנכי של תמונה וטקסט */
+    align-items: center;
+    /* מרכוז אופקי של התוכן */
+    margin: 20px;
+    /* רווח בין פריטים */
     text-align: center;
-    max-width: 250px; /* הגבלת רוחב פריט */
+    max-width: 250px;
+    /* הגבלת רוחב פריט */
 }
 
 .sponsor-logo {
     background-color: #fff;
     width: 250px;
-    
+
     height: 150px;
-    
-    margin-bottom: 10px; /* רווח בין תמונה לטקסט */
+
+    margin-bottom: 10px;
+    /* רווח בין תמונה לטקסט */
 }
 
 .sponsor-name {
-    font-size: 16px; /* גודל גופן */
-    font-weight: bold; /* טקסט מודגש */
-    margin: 0; /* הסרת מרווחים מיותרים */
+    font-size: 16px;
+    /* גודל גופן */
+    font-weight: bold;
+    /* טקסט מודגש */
+    margin: 0;
+    /* הסרת מרווחים מיותרים */
 }
 
 
 @media (max-width: 880px) {
 
-   
+    .call-for-abstracts p {
+        flex-direction: column;
+    }
+    
+
     .menu {
         display: none;
         flex-direction: column;
@@ -530,27 +544,51 @@ ol li:before {
     .background-top-demos {
         transform: translateY(0%);
     }
+
+
+
+    .home {
+
+        margin-inline-start: 5%;
+        margin-inline-end: 5%;
+    }
+
+    .organizing-committee {
+        margin-inline-start: 5%;
+        margin-inline-end: 5%;
+    }
+
+    .call-for-abstracts {
+        margin-inline-start: 5%;
+        margin-inline-end: 5%;
+    }
+
+    .demos {
+        margin-inline-start: 5%;
+        margin-inline-end: 5%;
+    }
 }
+
 @media (max-width: 500px) {
 
     .home-header p {
         font-size: 0.75rem;
     }
-    
+
     .home-header h2 {
         font-size: 1.5rem;
     }
-    
+
     .home-header h3 {
         font-size: 1rem;
     }
-    
+
     .imgs-row img {
         width: 50px;
         height: 50px;
         object-fit: cover;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         z-index: 3;
-    
+
     }
 }
