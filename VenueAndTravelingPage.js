@@ -21,7 +21,7 @@ Car: Enter "University of Haifa" in waze/google maps“. Park in one of the park
             <br> 
              <p>How to get to the IOLR, Shikmona?</p>
            <p>Public transportation: Take a train or bus to “Hof Hacarmel” station in Haifa and take the Metronit light rail line 1 north to “Ein Hayam” station. Alternatively, travel to Bat Galim” station and take the Metronit light rail line 2 south to “Ein Hayam” station. Cross the pedestrian bridge towards the sea and follow the scenic road along the sea for 5 minutes until you reach the IOLR building. Follow the signs at the entrance.
-By car: Enter “Israel Oceanographic and Limnological Research, Shikmona, Haifa” in waze/google maps. Park in the indoor parking lot (no permit required) and walk to the entrance of the building
+By car: Enter “Israel Oceanographic and Limnological Research, Shikmona, Haifa” in waze/google maps. Park in the designated parking lot (no permit required) and walk to the entrance of the building
 </p>
            <p></p>
            <p></p>

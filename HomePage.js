@@ -16,6 +16,10 @@ class HomePage extends HTMLElement { // Changed class name to DemosPage
                 <li>expert panel discussion future directions in using technologies for marine biology research</li>
                 <li>demos of underwater technologies related to marine biology</li>
             </ol>
+             <div class="button-container">
+                <button class="styled-button" id="WorkshopProgramButton">Workshop Program</button>
+            </div>
+
 
             <div class="imgs-row">
                 <img src="img/row1.jpeg" alt="img/row1" >
@@ -26,6 +30,25 @@ class HomePage extends HTMLElement { // Changed class name to DemosPage
        
         </div>
         `;
+
+
+              this.querySelector('#WorkshopProgramButton').addEventListener('click', () => {
+                window.open('Tech4BioPlan.pdf', '_blank'); 
+            });
+    
+            this.style.display = 'block'; 
+            this.style.width = '100%'; 
+            this.style.boxSizing = 'border-box'; 
+            this.style.padding = '10px'; 
+    
+
+            const images = this.querySelectorAll('.imgs-row img');
+            images.forEach(img => {
+                img.style.width = '100%'; 
+                img.style.marginBottom = '10px'; 
+            });
+   
+
     }
 }
 

@@ -13,7 +13,7 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
 
             <ul>
                 <li>
-                    <img src="img/wave.png" alt="parson" class="parson-img">
+                    <img src="img/RoeePic10.JPG" alt="parson" class="parson-img">
                     <div>
                     <p class="name">Associate Prof. Roee Diamant,</p>
                     <p>Department of Marine Technologies, University of Haifa</p>
@@ -21,7 +21,7 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
                     </div>
                 </li>
                 <li>
-                    <img src="img/wave.png" alt="parson" class="parson-img">
+                    <img src="img/AviadScheinin.jpg" alt="parson" class="parson-img">
                     <div>
                         <p class="name">Dr. Aviad Shienin,</p>
                         <p>Department of Marine Biology, University of Haifa</p>
@@ -29,14 +29,14 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
                     </div>
                 </li>
                 <li>
-                    <img src="img/wave.png" alt="parson" class="parson-img">
+                    <img src="img/ShlomiDahan.png" alt="parson" class="parson-img">
                     <div>
                         <p class="name">Mr. Shlomi Dahan,</p>
                         <p>Department of Marine Technologies, University of Haifa</p>
                     </div>
                 </li>
                 <li>
-                    <img src="img/wave.png" alt="parson" class="parson-img">
+                    <img src="img/Shimrit.jpg" alt="parson" class="parson-img">
                     <div>
                         <p class="name">Mrs. Shimrit Haimzon,</p>
                         <p>School of Marine Sciences, University of Haifa</p>

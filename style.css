@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Assistant';
+
 }
 
 body {
@@ -218,7 +220,8 @@ p {
 .demos ul {
     margin-left: 15px;
 }
-.call-for-abstracts  ul {
+
+.call-for-abstracts ul {
     list-style: none;
     padding: 0;
 }
@@ -227,20 +230,23 @@ p {
 
 .call-for-abstracts .with-color {
     color: rgb(9 118 152);
-    text-decoration: underline; /* תיקון: החלפת enderscore ב-underline */
+    text-decoration: underline;
+    /* תיקון: החלפת enderscore ב-underline */
     font-size: 20px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
 .with-bold {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .call-for-abstracts ul {
-    list-style: none; /* הסרת הנקודות */
-    padding-left: 0; /* הסרת ריפוד שמאלי */
+    list-style: none;
+    /* הסרת הנקודות */
+    padding-left: 0;
+    /* הסרת ריפוד שמאלי */
 }
 
 .call-for-abstracts ul li {
@@ -341,21 +347,22 @@ p {
 
 
 .home {
-    
+
     margin-inline-start: 20%;
     margin-inline-end: 20%;
 }
 
+/*
 .home p {
     font-family: 'Assistant';
     font-size: 0.7rem;
 }
-
+*/
 #home-header {
     text-align: left;
     margin-inline-start: 10%;
-    margin-inline-end: 20%;  
-      top: 30%;
+    margin-inline-end: 20%;
+    top: 30%;
     position: absolute;
 }
 
@@ -397,7 +404,7 @@ ol li {
     margin-bottom: 4px;
     margin-left: 19px;
     color: black;
-    font-size: 0.7rem;
+    /*font-size: 0.7rem;*/
 }
 
 ol li:before {
@@ -406,9 +413,9 @@ ol li:before {
     background-color: rgb(8 118 153);
     color: rgb(255, 255, 255);
     /* צבע טקסט */
-    width: 0.7rem;
+   /* width: 0.7rem;
     height: 0.7rem;
-    font-size: 0.7rem;
+    font-size: 0.7rem;*/
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -417,19 +424,26 @@ ol li:before {
 }
 
 .styled-button {
-    width: 150px; /* הגדרת רוחב */
+    width: 150px;
+    /* הגדרת רוחב */
     padding: 4px;
     background-color: rgb(8 118 153);
-    color: white; /* הגדרת צבע טקסט */
-    border: none; /* הסרת גבול ברירת מחדל */
-    border-radius: 5px; /* עיגול פינות (אופציונלי) */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* הוספת הצללה */
-    cursor: pointer; /* שינוי סמן העכבר */
-    font-size: 16px; /* הגדרת גודל טקסט (אופציונלי) */
+    color: white;
+    /* הגדרת צבע טקסט */
+    border: none;
+    /* הסרת גבול ברירת מחדל */
+    border-radius: 5px;
+    /* עיגול פינות (אופציונלי) */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* הוספת הצללה */
+    cursor: pointer;
+    /* שינוי סמן העכבר */
+    font-size: 16px;
+    /* הגדרת גודל טקסט (אופציונלי) */
 }
 
 .styled-button:hover {
-    background-color:  rgb(7, 97, 124);
+    background-color: rgb(7, 97, 124);
 }
 
 
@@ -444,12 +458,13 @@ ol li:before {
 .register .styled-button {
     width: 250px;
 }
+
 .register {
-    
+
     text-align: center;
 }
 
-.to-be-updated{
+.to-be-updated {
     text-align: center;
-font-size: x-large;
+    font-size: x-large;
 }
