@@ -14,11 +14,11 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
 
             <ul>
                 <li>
-                    <img src="img/RoeePic10.JPG" alt="parson" class="parson-img">
+                    <img src="img/RoeePic10.jpeg" alt="parson" class="parson-img">
                     <div>
-                    <p class="name">Associate Prof. Roee Diamant,</p>
-                    <p>Department of Marine Technologies, University of Haifa</p>
-                    <p>Faculty of Electrical and Computing Engineeing, University of Zagreb</p>
+                        <p class="name">Associate Prof. Roee Diamant,</p>
+                        <p>Department of Marine Technologies, University of Haifa</p>
+                        <p>Faculty of Electrical and Computing Engineeing, University of Zagreb</p>
                     </div>
                 </li>
                 <li>

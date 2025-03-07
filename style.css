@@ -282,11 +282,8 @@ p {
 
 .organizing-committee ul li {
     display: flex;
-    /* הגדרת כל פריט רשימה כ-flex container */
     align-items: flex-start;
-    /* יישור התוכן לתחילת הציר האנכי */
     margin-bottom: 20px;
-    /* הוספת מרווח בין פריטים */
 }
 
 .organizing-committee .parson-img {

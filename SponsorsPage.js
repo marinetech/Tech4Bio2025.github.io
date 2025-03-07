@@ -42,14 +42,14 @@ class SponsorsPage extends HTMLElement {
                     -->
 
                     <li class="sponsor-item">
-                        <img src="./img/UWIN_LABUST_logo.jpg" alt="UWIN_LABUST_logo" class="sponsor-logo">
+                        <img src="./img/UWINLABUSTFINALhorizontalni1.png" alt="UWIN_LABUST_logo" class="sponsor-logo">
                         <p class="sponsor-name">UWIN</p>
                         <p class="sponsor-title">ERA CHAIR IN INTERNET OF UNDERWATER THINGS AT LABUST1 
 </p>
                     </li>
 
                     <li class="sponsor-item">
-                        <img src="./img/MarbleLogo.jpg" alt="MarbleLogo" class="sponsor-logo">
+                        <img src="./img/CoE_Marble_pozitiv_horizontalni.png" alt="MarbleLogo" class="sponsor-logo">
                         <p class="sponsor-name">Marble</p>
                         <p class="sponsor-title">entre of Excellence in Maritime Robotics and Technologies
 for Sustainable Blue Economy</p>
