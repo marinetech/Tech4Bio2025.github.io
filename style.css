@@ -259,6 +259,10 @@ p {
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+    
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    width: 60%;
 }
 
 .imgs-row img {
@@ -352,6 +356,7 @@ p {
 
 
 ol {
+    padding-top:5px ;
     list-style-type: none;
     counter-reset: item;
 }
@@ -432,19 +437,6 @@ ol li:before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sponsors {
     display: block;
     width: 100%;
@@ -461,45 +453,61 @@ ol li:before {
     justify-content: center;
 }
 
-.sponsor-item {
-    display: flex;
-    flex-direction: column;
-    /* סידור אנכי של תמונה וטקסט */
-    align-items: center;
-    /* מרכוז אופקי של התוכן */
-    margin: 20px;
-    /* רווח בין פריטים */
-    text-align: center;
-    max-width: 250px;
-    /* הגבלת רוחב פריט */
+.filler {
+    height: -webkit-fill-available;
 }
 
-.sponsor-logo {
-    background-color: #fff;
-    width: 250px;
+.sponsor-item {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    /*padding: 10px;*/
 
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 20px;
+    text-align: center;
+    max-width: 350px;
+    z-index: 6;
+}
 
-    margin-bottom: 10px;
-    /* רווח בין תמונה לטקסט */
+.sponsor-item img {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-info {
+    min-height: 75px;
+    width: 100%;
+    padding: 10px;
+    background-color: #efefefc7;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
 }
 
 .sponsor-name {
     font-size: 16px;
-    /* גודל גופן */
     font-weight: bold;
-    /* טקסט מודגש */
-    margin: 0;
-    /* הסרת מרווחים מיותרים */
+
+    margin-top: auto;
+    /* דחיפת הכותרת לתחתית האלמנט */
 }
+
 
 
 @media (max-width: 880px) {
 
+    .sponsor-item {
+        min-width: 280px;
+    }
+
     .call-for-abstracts p {
         flex-direction: column;
     }
-    
+
 
     .menu {
         display: none;
