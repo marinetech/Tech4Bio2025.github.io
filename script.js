@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (page === 'Home') {
             document.querySelector('.background-top-demos').style.transform = 'translateY(0%)';
-            document.querySelector('.content').style.top = '30%';
+            //document.querySelector('.content').style.top = '30%';
 
         } else {
             document.querySelector('.background-top-demos').style.transform = 'translateY(0%)';
-            document.querySelector('.content').style.top = '30%';
+            //document.querySelector('.content').style.top = '30%';
         }
 
         if (contentDiv) {

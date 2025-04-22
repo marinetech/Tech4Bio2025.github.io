@@ -1,56 +1,6 @@
 class OrganizingCommitteePage extends HTMLElement { // Changed class name to DemosPage
     connectedCallback() {
         this.innerHTML = `
-        <style>
-
-            ul {
-                list-style: none;
-                padding: 0;
-            }
-
-            li {
-                display: flex;
-                margin-bottom: 40px;
-            }
-
-            .parson-img {
-                width: 150px;
-                height: 150px;
-                object-fit: cover;
-                border-radius: 50%;
-                margin-right: 20px;
-                border: 3px solid #005f99;
-            }
-
-            .name {
-                font-size: 1.5em;
-                font-weight: bold;
-                color: #005f99;
-                margin-bottom: 5px;
-            }
-
-            .title {
-                font-weight: bold;
-                margin-top: 15px;
-                margin-bottom: 10px;
-                color: #333;
-            }
-
-            @media (max-width: 600px) {
-                li {
-                    flex-direction: column;
-                    align-items: center;
-                    text-align: center;
-                    
-                }
-
-                .parson-img {
-                    margin-right: 0;
-                    margin-bottom: 15px;
-                }
-            }
-        </style>
-
         <div class="organizing-committee">
         <img src="img/Vertical wave.png" alt="Vertical wave" class="background-content-demos">
 
@@ -61,7 +11,8 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
             </div>
 
 
-             <ul>
+
+            <ul>
                 <li>
                     <img src="img/RoeePic10.jpeg" alt="parson" class="parson-img">
                     <div>
