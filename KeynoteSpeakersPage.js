@@ -87,20 +87,6 @@ class KeynoteSpeakersPage extends HTMLElement {
                 </p>
             </div>
 
-              <div class="speaker">
-                <div class="speaker-header">
-                    <img src="img/Jeff Neasham 29-02-24.jpg" alt="Jeff Neasham img" class="parson-img">
-                    <div class="speaker-info">
-                        <p class="name">Prof. Jeff Neasham</p>
-                        <p class="position">Chair in Acoustic Signal Processing<br>
-                        Head of Intelligent Sensing and Communication (ISC) Research Group</p>
-                    </div>
-                </div>
-                <p class="title">Development of real-time passive acoustic detection systems for marine mammals</p>
-                <p>
-                    Professor Jeff Neasham graduated in electronic engineering from Newcastle University, Newcastle upon Tyne, UK, in 1994. He worked at Newcastle University from 1994 until 2007 as a Research Associate on research and commercial product development in underwater acoustic communication, sonar imaging, and wireless sensor networks, before taking up an academic post. He is currently Chair in Acoustic Signal Processing with the School of Engineering, Newcastle University, leading the Intelligent Sensing and Communications Research Group and directing the Sensors, Electromagnetics and Acoustics Laboratory (SEALab). He has published over 150 conference and journal publications, and his work on underwater acoustic communication and positioning has been commercialised by companies in the UK and Italy. His current research interests are in underwater acoustic signal processing and device design, wireless communication networks, passive acoustic detection/localisation and biomedical instrumentation.
-                </p>
-            </div>
 
             <p class="to-be-updated"></p>
         </div>
