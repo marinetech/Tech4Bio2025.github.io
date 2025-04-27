@@ -87,6 +87,24 @@ class KeynoteSpeakersPage extends HTMLElement {
                 </p>
             </div>
 
+            <div class="speaker">
+                <div class="speaker-header">
+                    <img src="img/Fraser Dalgleish.png" alt="Fraser Dalgleish img" class="parson-img">
+                    <div class="speaker-info">
+                        <p class="name">Dr Fraser Dalgleish</p>
+                        <p class="position">Chief Technology Officer at BeamSea Associates in Palm Beach (FL)<br>
+                         a maritime photonics start-up who are pioneering cost effective and automated LiDAR imaging and sensing payloads for small unmanned maritime vehicles.</p>
+                    </div>
+                </div>
+                <p class="title">In situ LiDAR remote sensing: Powerful new observing tools for marine biology.</p>
+                <p>
+                    Dr Fraser Dalgleish currently serves as Chief Technology Officer at BeamSea Associates in Palm Beach (FL) a maritime photonics start-up who are pioneering cost effective and automated LiDAR imaging and sensing payloads for small unmanned maritime vehicles. 
+
+Prior to that he served as Senior Scientist in the Photonics and Quantum Sciences Core Technology Center within the Space and Airborne Systems business segment at L3Harris Technologies. He was in this role for over 6 years leading multiple initiatives in R&D of novel photonic devices and materials, guiding the development of photonic assemblies to meet emerging customer interests in quantum sensors, low-SWaP LiDAR and advanced free space optical communications (FSOC) techniques. 
+
+Before taking an industry position, he was a Research Faculty at Harbor Branch Oceanographic Institute, a campus of Florida Atlantic University. He was in this role for more than 13 years, where he founded the Ocean Visibility and Optics Laboratory, an engineering research lab and test facility specializing in R&D of laser and LiDAR instrumentation for marine science applications and development and validation of a suite of undersea radiative transfer computer models.
+                </p>
+            </div>
 
             <p class="to-be-updated"></p>
         </div>
