@@ -35,8 +35,14 @@ class SponsorsPage extends HTMLElement {
                 img: "./img/CoE_Marble_pozitiv_horizontalni.png",
                 alt: "MarbleLogo",
                 sponsor_name: "Marble",
-                sponsor_title: "entre of Excellence in Maritime Robotics and Technologies"
-            }
+                sponsor_title: "Centre of Excellence in Maritime Robotics and Technologies"
+            },
+            {
+                img: "./img/merci.jpg",
+                alt: "merciLogo",
+                sponsor_name: "merci",
+                sponsor_title: "Mediterranean Sea Research Center of Israel"
+            } 
         ]
 
         /*

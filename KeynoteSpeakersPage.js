@@ -262,7 +262,7 @@ class KeynoteSpeakersPage extends HTMLElement {
             toggle.addEventListener('click', () => {
                 const bioContainer = toggle.previousElementSibling;
                 bioContainer.classList.toggle('open');
-                toggle.textContent = bioContainer.classList.contains('open') ? 'Read Less' : 'Read More';
+                toggle.textContent = bioContainer.classList.contains('open') ? 'Read Less' : 'Read Bio';
             });
         });
     }
