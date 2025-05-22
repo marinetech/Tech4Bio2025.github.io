@@ -93,7 +93,7 @@ class OrganizingCommitteePage extends HTMLElement { // Changed class name to Dem
                     </div>
                 </li>
                 <li>
-                    <img src="img/IshayahuPewzner.png" alt="parson" class="parson-img">
+                    <img src="img/ipewzner.jpeg" alt="parson" class="parson-img">
                     <div>
                         <p class="name">Mr. Ishayahu Pewzner,</p>
                         <p>Department of Marine Technologies, University of Haifa</p>
