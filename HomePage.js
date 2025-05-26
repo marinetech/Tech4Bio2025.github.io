@@ -34,7 +34,7 @@ class HomePage extends HTMLElement { // Changed class name to DemosPage
 
 
               this.querySelector('#WorkshopProgramButton').addEventListener('click', () => {
-                window.open('WhatsApp_Image_2025-03-06_at_21.24.01.jpeg', '_blank'); 
+                window.open('schedule.jpg', '_blank'); 
             });
     
             this.style.display = 'block'; 
