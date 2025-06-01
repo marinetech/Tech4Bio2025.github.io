@@ -23,6 +23,14 @@ class KeynoteSpeakersPage extends HTMLElement {
             title: "AI Interpretability for Marine Biology.",
             abstract: "Interpretability is the new frontier in AI research. Understanding how generative models learn and how they resemble or differ from humans can not only provide insights for the study of human language and cognition, but can also facilitate discovery of novel patterns in diverse fields. For this purpose, it is essential to both introspect LLMs that test the limits of neural computation as well as to develop deep neural models that learn more like human infants acquiring language.  In this talk, I outline a more realistic model of human language acquisition and outline an AI interpretability technique (called CDEV) that allows us to establish a causal relationship between individual neurons and linguistically meaningful properties. Using the proposed technique, we can compare and evaluate artificial and biological neural processing of language. Additionally, I show that AI interpretability techniques can facilitate scientific discovery by uncovering previously unrecognized patterns in complex data types. I will argue that sperm whales have analogues to human vowels. This discovery was predicted, but not fully described, by the proposed AI interpretability technique. I will also show that the so-called coda vowels feature several behavioral parallels with human vowels, such as coarticulation and prominence in sub-coda structure.",
             image: "img/Gašper Beguš.JPG"
+        },
+        {
+            name: "Dr Đula Nađ",
+            position: "Assistant professor, Department of Control and Computer Engineering",
+            bio: "Đula Nađ is an assistant professor at the Laboratory of Underwater Systems and Technologies (LABUST), part of the University of Zagreb Faculty of Electrical Engineering and Computing. During last 15 years he participated in over 15 national and international projects dealing with navigation, guidance and control of underwater vehicles. His research interest includes underwater navigation and localization aiding for diver-robot interaction scenarios.",
+            title: "Wearable sensing and robotics for divers.",
+            abstract: "Limited visibility, constant disturbances and technical equipment make human exploration of underwater environments challenging. While underwater robots can aid in these tasks, they cannot fully replace human presence in cognitive and fine manipulations tasks. Therefore, solutions to enable safer diving and interaction with robotic diving buddies are required. The lecture will showcase the current research efforts from the Laboratory for Underwater Systems and Technologies in this direction.",
+            image: "img/Đula Nađ.jfif"
         }
     ];
 
