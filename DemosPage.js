@@ -11,7 +11,7 @@ class DemosPage extends HTMLElement { // Changed class name to DemosPage
             </div>
             
 
-            <p>Demos and exhibition will be conducted at the IOLR/Shikmona facility between 9:00am and 12 on Wed, June 25.
+            <p>Demos and exhibition will be conducted at the IOLR/Shikmona facility between 9:00am and 12 on Wed, October 22.
             </p>
             <br> 
             

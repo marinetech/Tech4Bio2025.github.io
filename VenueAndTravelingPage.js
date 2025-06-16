@@ -12,7 +12,7 @@ class VenueAndTraveling extends HTMLElement { // Changed class name to DemosPage
 
 
 
-            <p>The workshop will be held in the multipurpose Building, University of Haifa (24/6) and in the IOLR, Shikmona Haifa (25/6).</p>
+            <p>The workshop will be held in the multipurpose Building, University of Haifa (21/10) and in the IOLR, Shikmona Haifa (22/10).</p>
             <br> 
             <p>How to get to the multipurpose Building, University of Haifa?</p>
                     
