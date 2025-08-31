@@ -7,8 +7,9 @@ class SocialEventPage extends HTMLElement { // Changed class name to DemosPage
             <div class="demos-container">
                 <img src="img/wave.png" alt="wave" class="wave">
                 <h2 class="wave-line-h2">Social Event</h2>
+                <h3 class="wave-line-h2">(Oct 20)</h3>
                 <img src="img/wave.png" alt="wave" class="wave miror">
-            </div>
+                </div>
 
 
 

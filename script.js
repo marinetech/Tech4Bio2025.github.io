@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 homeDiv.innerHTML = `
                 <div class="home-header">
                     <h2>Tech4Bio 2025</h2>
-                    <p>Technology to the Aid of Marine Biology</p>
-                    <h3>June 25, 2025</h3>
+                    <p>11th Haifa Conference in Marine Sciences</p>
+                    <h3>October 21-22, 2025</h3>
                 </div>
                 `;
             } else {
