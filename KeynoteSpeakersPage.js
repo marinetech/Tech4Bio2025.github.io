@@ -9,20 +9,21 @@ class KeynoteSpeakersPage extends HTMLElement {
             image: "img/Fraser Dalgleish.png"
         },
         {
-            name: "Prof. Gašper Beguš",
-            position: "Associate Professor & College Principal, University of California, Berkeley",
-            bio: "Gašper Beguš is an Associate Professor at the University of California, Berkeley, where he bridges the fields of linguistics, artificial intelligence, and cognitive science. His research centers on interpretable AI and the study of language in humans, animals, and machines. Dr. Beguš leads efforts to develop techniques that help us better understand the inner workings of AI. In his Berkeley Speech and Computation lab, he also builds the most realistic models of human language learning—creating an artificial baby language learner. Serving as the Linguistics Lead at Project CETI, a non-profit dedicated to listening to sperm whales, he researches one of the most intriguing communication systems in the animal kingdom. His recent research discovered that sperm whales have equivalents to human vowels. His research has been featured in numerous press outlets, including the Financial Times, The Atlantic, National Geographic, Quanta Magazine, Harvard Magazine, Noema Magazine, and others. Dr. Beguš regularly appears as an invited speaker in diverse venues such as NYU Stern School of Business, Centre Pompidou, the National Science Foundation, and the Santa Fe Institute. His models inspired parts of the La Biennale di Venezia exhibition and a science fiction book for young audiences.",
-            title: "AI Interpretability for Marine Biology.",
-            abstract: "Interpretability is the new frontier in AI research. Understanding how generative models learn and how they resemble or differ from humans can not only provide insights for the study of human language and cognition, but can also facilitate discovery of novel patterns in diverse fields. For this purpose, it is essential to both introspect LLMs that test the limits of neural computation as well as to develop deep neural models that learn more like human infants acquiring language.  In this talk, I outline a more realistic model of human language acquisition and outline an AI interpretability technique (called CDEV) that allows us to establish a causal relationship between individual neurons and linguistically meaningful properties. Using the proposed technique, we can compare and evaluate artificial and biological neural processing of language. Additionally, I show that AI interpretability techniques can facilitate scientific discovery by uncovering previously unrecognized patterns in complex data types. I will argue that sperm whales have analogues to human vowels. This discovery was predicted, but not fully described, by the proposed AI interpretability technique. I will also show that the so-called coda vowels feature several behavioral parallels with human vowels, such as coarticulation and prominence in sub-coda structure.",
-            image: "img/Gašper Beguš.JPG"
-        },
-        {
             name: "Dr Đula Nađ",
             position: "Assistant professor, Department of Control and Computer Engineering",
             bio: "Đula Nađ is an assistant professor at the Laboratory of Underwater Systems and Technologies (LABUST), part of the University of Zagreb Faculty of Electrical Engineering and Computing. During last 15 years he participated in over 15 national and international projects dealing with navigation, guidance and control of underwater vehicles. His research interest includes underwater navigation and localization aiding for diver-robot interaction scenarios.",
             title: "Wearable sensing and robotics for divers.",
             abstract: "Limited visibility, constant disturbances and technical equipment make human exploration of underwater environments challenging. While underwater robots can aid in these tasks, they cannot fully replace human presence in cognitive and fine manipulations tasks. Therefore, solutions to enable safer diving and interaction with robotic diving buddies are required. The lecture will showcase the current research efforts from the Laboratory for Underwater Systems and Technologies in this direction.",
             image: "img/Đula Nađ.jfif"
+        }
+        ,
+        {
+            name: "Dr Aviad Scheinin",
+            position: "The Morris Kahn Marine Research Station, University of Haifa. \nHead of Dolphin & Sea  Educational Center of Delphis NGO",
+            bio: "Head of the Marine Apex Predator Lab, specializing in the conservation, behavioral ecology, and long-term monitoring of coastal apex predators, including dolphins, sharks, rays, and bluefin tuna. His research addresses critical knowledge gaps in the Eastern Mediterranean Sea, with a focus on the ecological roles of apex predators as sentinels of marine ecosystem health. The lab develops innovative sampling protocols and indicators for pelagic megafauna, employing advanced methodologies such as drone-based photogrammetry, acoustic surveys, mark-recapture techniques, underwater observations, and molecular tools, including stable isotope analysis, and microbiome profiling.",
+            title: "Technology in the aid of deciphering the marine apex predators of the easternmost Mediterranean Sea.",
+            abstract: "This talk presents four marine apex predator case studies from Israel: coastal shark seasonal aggregation, Bluefin tuna breeding aggregation, the decline of the common dolphins population, and deep-diving sperm whales occurrence. It highlights how these examples help explore the use and limitations of technological tools in studying pelagic species. The speaker aims to shed light on both ecological insights and the challenges of marine monitoring.",
+            image: "img/Dr_Aviad_Scheinin.jpeg"
         }
     ];
 
