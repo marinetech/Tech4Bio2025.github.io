@@ -1,6 +1,14 @@
 class KeynoteSpeakersPage extends HTMLElement {
     speakers = [
         {
+            name: "Mr Guy Gubnitsky",
+            position: "PhD candidate, Department of Marine Technologies, University of Haifa",
+            bio: "Guy Gubnitsky received his B.Sc. in Electronic Engineering from Ariel University, Israel, in 2018, specializing in electro-optics and medical imaging, and his M.Sc. in Marine Technologies from the University of Haifa in 2019, with a focus on underwater signal and image processing. He is currently completing his Ph.D. in Marine Technologies at the University of Haifa, where his research centers on passive acoustic monitoring of sperm whales. His work develops methods for detection, classification, source separation, and localization of whale signals, contributing both to fundamental science and to practical applications in conservation and sustainable ocean use.",
+            title: "Key-Enabling Methods for Passive Acoustic Monitoring of Sperm Whales",
+            abstract: "Sperm whales produce a wide variety of powerful broadband clicks used for echolocation and communication, detectable at distances of up to 10 km using passive acoustic monitoring (PAM) systems. These acoustic signals are central to understanding whale behavior and hold promise for future breakthroughs in decoding communication with large language models (LLMs). Yet effective PAM remains technically challenging: transient noise, overlapping click trains from multiple whales, and environmental uncertainties complicate accurate monitoring and interpretation. This keynote will highlight recent advances in detection, classification, source separation, and localization methods that address these challenges, forming the backbone of next-generation PAM systems with applications in science, conservation, and sustainable ocean use.",
+            image: "img/Guy_Gubnitsky.jpeg"
+        },
+        {
             name: "Dr Fraser Dalgleish",
             position: "Chief Technology Officer at BeamSea Associates in Palm Beach (FL)\nA maritime photonics start-up who are pioneering cost effective and automated LiDAR imaging and sensing payloads for small unmanned maritime vehicles.",
             bio: "Dr Fraser Dalgleish currently serves as Chief Technology Officer at BeamSea Associates in Palm Beach (FL) a maritime photonics start-up who are pioneering cost effective and automated LiDAR imaging and sensing payloads for small unmanned maritime vehicles. Prior to that he served as Senior Scientist in the Photonics and Quantum Sciences Core Technology Center within the Space and Airborne Systems business segment at L3Harris Technologies. He was in this role for over 6 years leading multiple initiatives in R&D of novel photonic devices and materials, guiding the development of photonic assemblies to meet emerging customer interests in quantum sensors, low-SWaP LiDAR and advanced free space optical communications (FSOC) techniques. Before taking an industry position, he was a Research Faculty at Harbor Branch Oceanographic Institute, a campus of Florida Atlantic University. He was in this role for more than 13 years, where he founded the Ocean Visibility and Optics Laboratory, an engineering research lab and test facility specializing in R&D of laser and LiDAR instrumentation for marine science applications and development and validation of a suite of undersea radiative transfer computer models.",
@@ -25,6 +33,8 @@ class KeynoteSpeakersPage extends HTMLElement {
             abstract: "This talk presents four marine apex predator case studies from Israel: coastal shark seasonal aggregation, Bluefin tuna breeding aggregation, the decline of the common dolphins population, and deep-diving sperm whales occurrence. It highlights how these examples help explore the use and limitations of technological tools in studying pelagic species. The speaker aims to shed light on both ecological insights and the challenges of marine monitoring.",
             image: "img/Dr_Aviad_Scheinin.jpeg"
         }
+        
+      
     ];
 
     connectedCallback() {
